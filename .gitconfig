@@ -1,0 +1,12 @@
+[core]
+	editor = code --wait
+	excludesfile = ~/.gitignore_global
+[merge]
+	tool = vscode
+[diff]
+	tool = vscode
+[credential]
+	helper = manager-core
+[user]
+	name = Rendbagoez93
+	email = kidmend58@gmail.com
