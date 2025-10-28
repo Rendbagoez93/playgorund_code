@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import pandas as pd
 
 players = ["Bob", "David", "Zelda", "Link", "Mario"]
 # Scores for each player in three rounds
@@ -90,8 +91,6 @@ plt.grid(True, linestyle="--", alpha=0.6)
 # Display the chart
 plt.tight_layout()
 plt.show()
-# Display the final rankings in a table format
-import pandas as pd
 
 # Create a DataFrame from the ranked player data
 df = pd.DataFrame(ranked)
